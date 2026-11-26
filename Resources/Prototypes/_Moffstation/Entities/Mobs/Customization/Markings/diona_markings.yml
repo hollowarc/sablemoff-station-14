@@ -1,0 +1,95 @@
+- type: marking
+  id: Dionainnervines
+  bodyPart: Chest
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      inner_vine_color:
+        type: !type:SkinColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/innervines.rsi
+    state: inner_vine_color
+
+- type: marking
+  id: Dionaheadvines
+  bodyPart: Head
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      head_vine_color:
+        type: !type:SkinColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/innervines.rsi
+    state: head_vine_color
+
+- type: marking
+  id: Dionanoeyes
+  bodyPart: HeadTop
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      no_eyes:
+        type: !type:SkinColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/diona_eyes.rsi
+    state: no_eyes
+
+- type: marking
+  id: Dionachesteyes
+  bodyPart: Head
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      extrachesteyes:
+        type: !type:EyeColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/diona_eyes.rsi
+    state: extrachesteyes
+
+- type: marking
+  id: Dionahandeyes
+  bodyPart: HeadTop
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      handeyes:
+        type: !type:EyeColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/diona_eyes.rsi
+    state: handeyes
+
+- type: marking
+  id: Dionaleftarmeyes
+  bodyPart: LArm
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      leftarmeyes:
+        type: !type:EyeColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/diona_eyes.rsi
+    state: leftarmeyes
+
+- type: marking
+  id: Dionareversedeyes
+  bodyPart: Head
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      reversed_eyes:
+        type: !type:EyeColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/diona_eyes.rsi
+    state: reversed_eyes
+
+- type: marking
+  id: Dionarightarmeyes
+  bodyPart: LArm
+  groupWhitelist: [ Diona ]
+  coloring:
+    layers:
+      rightarmeyes:
+        type: !type:EyeColoring
+  sprites:
+  - sprite: _Moffstation/Mobs/Customization/Diona/diona_eyes.rsi
+    state: rightarmeyes

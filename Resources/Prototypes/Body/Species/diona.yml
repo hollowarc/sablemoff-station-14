@@ -29,7 +29,7 @@
       required: false
     enum.HumanoidVisualLayers.Overlay:
       limit: 1
-      required: true
+      required: false #- Moffstation Diona Resprite
       default: [ DionaVineOverlay ]
 
 - type: entity
@@ -198,7 +198,7 @@
   components:
   - type: VisualOrgan
     data:
-      sprite: Mobs/Species/Diona/parts.rsi
+      sprite: _Moffstation/Mobs/Species/Diona/parts.rsi #- Diona Resprite Moffstation
   - type: VisualOrganMarkings
     markingData:
       group: Diona
@@ -209,7 +209,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Mobs/Species/Diona/parts.rsi
+    sprite: _Moffstation/Mobs/Species/Diona/parts.rsi #- Diona Resprite Moffstation
 
 - type: entity
   parent: [ OrganBaseTorso, OrganDionaExternal ]
@@ -261,7 +261,7 @@
   components:
   - type: VisualOrgan
     data:
-      sprite: Mobs/Customization/eyes.rsi
+      sprite: _Moffstation/Mobs/Customization/eyes.rsi #- Diona Resprite Moffstation
       state: diona
 
 - type: entity

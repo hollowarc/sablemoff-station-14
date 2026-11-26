@@ -466,5 +466,5 @@
   #      color: "#5f7039"
   sprites:
   #- sprite: Mobs/Customization/diona.rsi
-  - sprite: _CD/Mobs/Customization/Diona/lleg.rsi # CD
+  - sprite: _Moffstation/Mobs/Customization/Diona/innervines.rsi #- Moffstation Diona Resprite (formerly CD)
     state: overlay
